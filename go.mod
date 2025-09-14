@@ -5,8 +5,8 @@ go 1.24.5
 require (
 	github.com/cloudwego/eino v0.5.2
 	github.com/cloudwego/eino-ext/components/embedding/ark v0.1.0
-	github.com/cloudwego/eino-ext/components/indexer/milvus v0.0.0-20250905035413-86dbae6351d5
 	github.com/cloudwego/eino-ext/components/model/ark v0.1.27
+	github.com/cloudwego/eino-ext/components/retriever/milvus v0.0.0-20250905035413-86dbae6351d5
 	github.com/joho/godotenv v1.5.1
 	github.com/milvus-io/milvus-sdk-go/v2 v2.4.2
 )
@@ -66,7 +66,7 @@ require (
 	golang.org/x/sync v0.16.0 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 	golang.org/x/text v0.26.0 // indirect
-	google.golang.org/genproto v0.0.0-20220503193339-ba3ae3f07e29 // indirect
+	google.golang.org/genproto v0.0.0-20230410155749-daa745c078e1 // indirect
 	google.golang.org/grpc v1.73.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
