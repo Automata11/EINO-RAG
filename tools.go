@@ -17,7 +17,7 @@ type Game struct {
 
 // 参数结构体
 type InputParam struct {
-	Name string `json:"name" jsconschema:"descripition=the name of game:`
+	Name string `json:"name" jsconschema:"description=the name of game:`
 }
 
 // 处理函数
@@ -31,7 +31,7 @@ func GetName(_ context.Context, param *InputParam) (string, error) {
 	}
 	for _, game := range GameSet {
 		if game.Name == param.Name {
-			return fmt.Sprintf("游戏类型为：%s，游戏发布年份为：%s", game.Genre, game.ReleaseYear), nil
+			return fmt.Sprintf("游戏类型为：%s，游戏发布年份为：%d", game.Genre, game.ReleaseYear), nil
 		}
 	}
 	return "未找到该游戏", nil
